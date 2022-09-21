@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.scss";
-import Headerbar from "./header";
+import Headerbar from "./header/NavBar";
 
 const Layout = () => {
   return (

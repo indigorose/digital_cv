@@ -1,13 +1,8 @@
 import React from "react";
-import "./index.scss";
+import "./Navbar.scss";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faContactCard,
-  faHome,
-  faLayerGroup,
-  faUser,
-} from "@fortawesome/free-solid-svg-icons";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 const Headerbar = () => {
   return (
@@ -20,7 +15,8 @@ const Headerbar = () => {
               Karen Robertson's Website
             </NavLink>
           </div>
-          {/* TODO - think about the projects link being a dropdown? */}
+          {/* TODO - think about the projects link being a dropdown?
+          put all the secondary navlinks in a div to move  to the right of the screen*/}
           <NavLink exact="true" activeclassname="active" to="/">
             <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             Home
@@ -31,7 +27,6 @@ const Headerbar = () => {
             className="about-link"
             to="/"
           >
-            <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
             About
           </NavLink>
           <NavLink
@@ -40,7 +35,6 @@ const Headerbar = () => {
             className="project-link"
             to="/"
           >
-            <FontAwesomeIcon icon={faLayerGroup} color="#4d4d4e" />
             Projects
           </NavLink>
           <NavLink
@@ -49,7 +43,6 @@ const Headerbar = () => {
             className="contact-link"
             to="/"
           >
-            <FontAwesomeIcon icon={faContactCard} color="#4d4d4e" />
             Contact
           </NavLink>
         </nav>
