@@ -5,13 +5,17 @@
   --main-text: white;
   --main-button: rgb(187, 76, 238);
   --main-outline: rgb(255, 255, 255);
-  --main-transparent: rgba(255, 255, 255, 0.2);
+  --main-transparent: rgba(194, 74, 235, 0.34);
   --main-1: black;
   --main-2: white;
   --main-3: grey;
   --main-4: yellow;
 }
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   font-family: 'Montserrat', 'Outfit', Arial, Helvetica, sans-serif;
@@ -23,7 +27,7 @@ h1,
 h4,
 p,
 a {
-  color: var(--main-text);
+  color: var(--main-1);
 }
 
 code {
@@ -42,15 +46,18 @@ div {
   color: var(--main-text);
   border: 1px solid var(--main-4);
   cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 .btn-light {
-  background: transparent;
-  color: var(--main-text);
+  background: var(--main-2);
+  color: var(--main-1);
+  border: 1px solid var(--main-1);
 }
 
 .btn:hover {
-  background: var(--main-transparent);
-  color: var(--main-text);
+  background: rgb(126, 126, 126);
+  color: white;
   transition: 0.3s;
 }
