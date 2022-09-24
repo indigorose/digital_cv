@@ -66,9 +66,9 @@ const Headerbar = () => {
 
         <div className="hamburger" onClick={handleClick}>
           {click ? (
-            <FontAwesomeIcon icon={faTimes} color="#fff" />
+            <FontAwesomeIcon icon={faTimes} color="#000" />
           ) : (
-            <FontAwesomeIcon icon={faBars} color="#fff" />
+            <FontAwesomeIcon icon={faBars} color="#000" />
           )}
         </div>
       </nav>
