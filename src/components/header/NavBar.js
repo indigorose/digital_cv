@@ -9,7 +9,7 @@ const Headerbar = () => {
         {/* Think about a home log here */}
         <nav className="header-wrapper">
           <NavLink to="/" className="brand-link">
-            Karen Robertson's Website
+            Karen Robertson
           </NavLink>
           {/* TODO - think about the projects link being a dropdown?
           put all the secondary navlinks in a div to move  to the right of the screen*/}

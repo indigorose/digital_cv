@@ -1,9 +1,10 @@
 // font styling
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700&display=swap');
 $font-stack: "Montserrat", sans-serif;
+$font-color: white;
 
 .nav-bar{
-    background: #fdfdfd;
+    background: #000000;
     display: inline-block;
     border: 1px solid #e9e90e;
     width: 100%;
@@ -23,11 +24,17 @@ $font-stack: "Montserrat", sans-serif;
         margin-right: auto;
         padding: 1rem;
         text-decoration: none;
-        color: orange;
+        color: $font-color;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .brand-link :hover{
+        text-decoration: underline;
     }
 
     .nav-link{
         padding: 1rem;
         text-decoration: none;
+        color: $font-color;
     }
 }
