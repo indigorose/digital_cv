@@ -1,8 +1,6 @@
-import React from "react";
-import "./index.scss";
-import Headerbar from "./header/NavBar";
-
-const Layout = () => {
+import React from 'react';
+import Headerbar from '../components/Navbar';
+const Home = () => {
   return (
     <>
       <Headerbar />
@@ -10,4 +8,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default Home;

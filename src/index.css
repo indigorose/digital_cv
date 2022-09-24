@@ -1,6 +1,56 @@
 /* Needs sorting! */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;800;900&family=Outfit:wght@100;200;300;400;700;900&display=swap');
+
+:root {
+  --main-text: white;
+  --main-button: rgb(187, 76, 238);
+  --main-outline: rgb(255, 255, 255);
+  --main-transparent: rgba(255, 255, 255, 0.2);
+  --main-1: black;
+  --main-2: white;
+  --main-3: grey;
+  --main-4: yellow;
+}
 
 body {
+  margin: 0;
+  font-family: 'Montserrat', 'Outfit', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -mox-osx-font-smoothing: greyscale;
+}
+
+h1,
+h4,
+p,
+a {
+  color: var(--main-text);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+div {
+  border: 1px solid var(--main-4);
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: var(--main-button);
+  color: var(--main-text);
+  border: 1px solid var(--main-4);
+  cursor: pointer;
+}
+
+.btn-light {
+  background: transparent;
+  color: var(--main-text);
+}
+
+.btn:hover {
+  background: var(--main-transparent);
+  color: var(--main-text);
+  transition: 0.3s;
 }

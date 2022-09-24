@@ -1,0 +1,74 @@
+/* font styling */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;800;900&family=Outfit:wght@100;200;300;400;700;900&display=swap');
+
+:root {
+  font-family: 'Montserrat', 'Outfit' sans-serif;
+  --main-text: white;
+  --main-button: rgb(187, 76, 238);
+  --main-outline: rgb(255, 255, 255);
+  --main-transparent: rgba(255, 255, 255, 0.2);
+  --main-navbar-background: rgb(56, 55, 55);
+  --main-1: black;
+  --main-2: white;
+  --main-3: grey;
+  --main-4: yellow;
+}
+
+.nav-bar {
+  display: flex;
+  background: var(--main-navbar-background);
+}
+.brand-link {
+  font-family: 'Outfit';
+  text-decoration: none;
+  color: var(--main-text);
+  font-weight: 700;
+  font-size: 1.75em;
+  padding: 1rem;
+  cursor: pointer;
+}
+.nav-menu {
+  font-size: 16px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  background: var(--main-navbar-background);
+  border: 1px solid #e9e90e;
+  width: 100%;
+  height: 50px;
+}
+
+.nav-link {
+  padding: 1rem;
+  text-decoration: none;
+  color: var(--main-text);
+}
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(193, 137, 232);
+}
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 1040px) {
+  .nav-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: -3;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  .hamburger {
+    display: initial;
+    font-size: 1.75em;
+  }
+}

@@ -1,19 +1,19 @@
-import React from "react";
-import "./App.scss";
-import { Routes, Route } from "react-router-dom";
-import Layout from "./components/index";
-import About from "./components/about/about";
-import Contact from "./components/contact/contact";
+import React from 'react';
+import './index.css';
+import { Routes, Route } from 'react-router-dom';
+import Home from './routes/Home';
+import Contact from './routes/Contact';
+import About from './routes/About';
+import Projects from './routes/Project';
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Layout />} />
-        {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/" element={<Contact />} />
-        <Route path="/" element={<About />} />
-        {/* <Route path="/" element={<Project />} /> */}
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </>
   );
