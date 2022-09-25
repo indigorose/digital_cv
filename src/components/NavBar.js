@@ -17,7 +17,7 @@ const Headerbar = () => {
   };
 
   window.addEventListener('scroll', changeColour);
-
+  // add an active header
   return (
     <>
       <nav className={color ? 'nav-bar-bg' : 'nav-bar'}>
