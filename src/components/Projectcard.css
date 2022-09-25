@@ -45,4 +45,7 @@
     margin: auto;
     grid-template-columns: 1fr;
   }
+  .project-cards {
+    height: 100%;
+  }
 }

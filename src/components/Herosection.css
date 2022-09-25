@@ -16,11 +16,13 @@
   font-size: 3rem;
   font-family: 'Outfit';
   padding: 0.6rem 0 1.5rem;
+  color: black;
 }
 .container p {
   margin-top: 5vh;
   font-size: 1.4rem;
   font-weight: 400;
+  color: black;
 }
 .container .btns {
   margin: 1rem;
