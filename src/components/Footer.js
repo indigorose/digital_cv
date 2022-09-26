@@ -16,29 +16,59 @@ const Footer = () => {
         <div className="footer-container">
           <div className="left">
             <div className="mail">
-              <h4>
-                <FontAwesomeIcon icon={faEnvelope} color="#fff" /> Email
-              </h4>
+              <a
+                href="mailto:robertson.k.l.a@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h4>
+                  <FontAwesomeIcon icon={faEnvelope} color="#fff" />
+                </h4>
+              </a>
             </div>
             <div className="github">
-              <h4>
-                <FontAwesomeIcon icon={faGithub} color="#fff" /> GitHub
-              </h4>
+              <a
+                href="http://github.com/indigorose"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h4>
+                  <FontAwesomeIcon icon={faGithub} color="#fff" />
+                </h4>
+              </a>
             </div>
             <div className="codepen">
-              <h4>
-                <FontAwesomeIcon icon={faCodepen} color="#fff" /> Codepen
-              </h4>
+              <a
+                href="https://codepen.io/indigorose"
+                target="_blank"
+                rel=" noreferrer"
+              >
+                <h4>
+                  <FontAwesomeIcon icon={faCodepen} color="#fff" />
+                </h4>
+              </a>
             </div>
             <div className="twitter">
-              <h4>
-                <FontAwesomeIcon icon={faTwitter} color="#fff" /> Twitter
-              </h4>
+              <a
+                href="https://twitter.com/Coding_Indigo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>
+                  <FontAwesomeIcon icon={faTwitter} color="#fff" />
+                </h4>
+              </a>
             </div>
             <div className="linkedin">
-              <h4>
-                <FontAwesomeIcon icon={faLinkedin} color="#fff" /> Linkedin
-              </h4>
+              <a
+                href="https://www.linkedin.com/in/karen-robertson-06958910a/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>
+                  <FontAwesomeIcon icon={faLinkedin} color="#fff" />
+                </h4>
+              </a>
             </div>
           </div>
           <div className="right">

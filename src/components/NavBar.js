@@ -20,7 +20,7 @@ const Headerbar = () => {
   // add an active header
   return (
     <>
-      <nav className={color ? 'nav-bar-bg' : 'nav-bar'}>
+      <nav className={color ? 'nav-bar' : 'nav-bar-bg'}>
         <NavLink
           exact="true"
           to="/"
