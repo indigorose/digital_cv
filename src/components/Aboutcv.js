@@ -16,7 +16,8 @@ const Aboutcv = () => {
           <div>
             <h1 id="user-name">Karen Robertson</h1>
             <p id="bio">
-              A sentance about yourself and any links to your sites
+              A software developer with skills in HTML, Javascript, Python and
+              CSS.{' '}
             </p>
           </div>
         </section>

@@ -51,6 +51,8 @@ li {
   max-width: 700px;
   margin: 0 auto;
   color: var(--mainLinkColors);
+  padding: 2em;
+  background-color: rgb(249, 249, 249);
 }
 
 .section--page {
@@ -63,6 +65,7 @@ li {
   display: flex;
   align-items: center;
   gap: 4em;
+  padding: 2em;
 }
 
 #user-name {
@@ -77,8 +80,8 @@ li {
 
 #profile-pic {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
 }
 
 #email {
