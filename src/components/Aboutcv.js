@@ -16,7 +16,7 @@ const Aboutcv = () => {
           <div>
             <h1 id="user-name">Karen Robertson</h1>
             <p id="bio">
-              A software developer with skills in HTML, Javascript, Python and
+              A software developer with skills in Javascript, Python, HTML and
               CSS.{' '}
             </p>
           </div>
@@ -31,7 +31,9 @@ const Aboutcv = () => {
         <section class="section--page">
           <h2>Skills and qualifications</h2>
           <ul id="qualifications--list">
-            <li>🟣 What are your skills and qualifications</li>
+            <li>🟣 BA(Hons) Economics</li>
+            <li>🟣 Profienct in Microsoft Office.</li>
+            <li>🟣 Active team member with self-drive and motivation.</li>
           </ul>
         </section>
         <section class="section--page">
@@ -81,7 +83,16 @@ const Aboutcv = () => {
             <p>11/2019 - Present</p>
             <p>Tasks and history</p>
             <ul>
-              <li>specifics what did you do?</li>
+              <li>
+                Build logical and accessible administrative systems for
+                departments to ensure departmental information is kept up to
+                date and accessible;
+              </li>
+              <li>
+                Organise departmental seminars, special lectures, events and
+                conferences in liaison with Heads of Department and the Faculty
+                Events Coordinator;
+              </li>
             </ul>
           </div>
           <div class="line-break"></div>
@@ -90,7 +101,19 @@ const Aboutcv = () => {
             <p>10/2017 - 11/2019</p>
             <p>Tasks and history</p>
             <ul>
-              <li>specifics what did you do?</li>
+              <li>
+                Manage the payable and receivable ledgers from the finance
+                system (SAGE 50);
+              </li>
+              <li>
+                Processing company-wide project-based month-end processes,
+                preparing and submitting VAT returns, processing weekly bank
+                reconciliations and year-end external audits;
+              </li>
+              <li>
+                Administering and liaising monthly time and expense sheets and
+                business travel with clients and contractors.
+              </li>
             </ul>
           </div>
         </section>

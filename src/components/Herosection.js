@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section className="content">
       <div className="container">
         <p>HI, I'M KAREN ROBERTSON</p>
-        <h1>Web Developer</h1>
+        <h1>Software Engineer</h1>
         <div className="btns">
           <Link to="/projects" className="btn">
             projects

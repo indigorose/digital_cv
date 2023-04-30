@@ -74,8 +74,7 @@ const Footer = () => {
           <div className="right">
             <h4>About me</h4>
             <p className="footer-about">
-              A web developer from London, UK. I enjoy building new projects
-              using new technologies and all things pop culture.
+              A software engineer from London, UK. My focus is building web based projects using new technologies and all things pop culture.
             </p>
           </div>
         </div>
